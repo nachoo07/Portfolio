@@ -519,6 +519,7 @@
     .portfolio-item {
         margin: 20px; /* Espacio de 20px arriba y abajo */
         
+        
     }
    
     /* Ajuste del tamaño de los íconos */
@@ -528,6 +529,93 @@
     width: 30px; /* Ajusta el ancho si es necesario */
     height: 30px; /* Ajusta la altura si es necesario */
 }
+
+.icono {
+    margin: 5px;
+   font-size: 10px ;
+}
+.contenedor-habilidades {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+
+.iconos-habilidades {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.overlay {
+    width: 250px;
+    height: 150px;
+    
+}
+
+.imagen-proyecto {
+    overflow: hidden;
+    width: 250px;
+    height: 150px;
+}
    
+.imagen-proyecto img {
+    width: 250px;
+    height: 150px;
+    transition: transform 0.5s ease;
+}
+
+.nombre-inicio{
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.nombre{
+    margin: 50px;
+    margin-bottom: 0px;
+    font-size: 28px;
+}
+
+.iconos-inicio {
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.imagen-ignacio {
+    width: 300px;
+    height: 300px;
+}
+
+.nombre-sobremi{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.nombre-habilidades{
+    font-size: 35px;
+}
+
+.nombre-curriculum{
+    font-size: 35px;
+}
+
+.titulo-h2{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.titulo-h3{
+    font-size: 20px;
+}
+
+.nombre-portfolio{
+    font-size: 35px;
+}
+
+.pagina-web{
+    font-size: 20px;
+}
+
 }
 
